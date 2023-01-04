@@ -10,7 +10,7 @@ int main()
     }
     int c=0;
     int e=0;
-    for(int k=0;k<n;k++)
+    for(int k=0; k<n; k++)
     {
         if(a[k]%2==0)
         {
@@ -30,7 +30,6 @@ int main()
     }
     else
     {
-    printf("False");
+        printf("False");
     }
 }
-    

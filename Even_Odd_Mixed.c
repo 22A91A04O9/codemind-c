@@ -1,28 +1,28 @@
 #include<stdio.h>
 int main()
 {
-    int n,s=0,p=1,t,l,i;
+    int n,c=0,k=0;
     scanf("%d",&n);
-    while(n>0)
+    int p=0;
+    while(n!=0)
     {
-        i=n%10;
-        if(i%2==0)
+        int r=n%10;
+        if(r%2==0)
         {
-            t=1;
+            c++;
         }
         else
         {
-            t=0;
+            k++;
         }
-        s=s+t;
-        p=p*t;
         n=n/10;
+        p++;
     }
-    if(s==0 && p==0)
+    if(k==p)
     {
         printf("Odd");
     }
-    else if(s>0 && p==1)
+    else if(c==p)
     {
         printf("Even");
     }

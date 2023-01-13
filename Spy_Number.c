@@ -19,4 +19,3 @@ int main()
         printf("Not Spy Number");
     }
 }
-

@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,s=0,p=1,diff,q,r;
+    int n,s=0,p=1,i,diff,q,r;
     scanf("%d",&n);
     q=n;
     while(q!=0)
@@ -14,4 +14,3 @@ int main()
     diff=(p-s);
     printf("%d",diff);
 }
-    
